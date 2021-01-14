@@ -1,4 +1,344 @@
 body {
-  margin: 0;
+  background-image: url("/Users/khushi/Desktop/Tracks/MAKEATHON/templates/Tracks/static/images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
+.line1{
+position: absolute;
+height: 0px;
+top: 136px;
+left: 5px;
+}
+.a1 { 
+  width: 1277px; 
+  height: 15px; 
+  background-color: transparent; 
+  position: absolute; 
+  top: 28px; 
+  left: 0px; 
+  transform: translate(-10%, -8%); 
+
+} 
+
+.a1::before { 
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 10%; 
+  height: 100%; 
+  background:#e11dac;
+  animation: animate 7s linear infinite; 
+  animation-direction: normal;
+  box-shadow: 0px 4px 30px #ffffff;
+} 
+
+@keyframes animate { 
+  0% { 
+      left: 0; 
+  } 
+
+  100% { 
+      left: 100%; 
+  } 
+} 
+.a2{
+  width: 1277px; 
+  height: 15px; 
+  background-color: transparent; 
+  position: absolute; 
+  top: 27px; 
+  right: 0px; 
+  transform: translate(10%, 8%); 
+}
+.a2::before{
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 10%; 
+  height: 100%; 
+  background:#e11dac;
+  animation: animate2 7s linear infinite; 
+  animation-direction: normal;
+  box-shadow: 0px 4px 30px #ffffff;
+}
+@keyframes animate2 { 
+  0% { 
+      left: 82%; 
+  } 
+
+  100% { 
+      left: 10%; 
+  } 
+} 
+
+.a3{
+  width: 1277px; 
+  height: 15px; 
+  background-color: transparent; 
+  position: absolute; 
+  top: 26px; 
+  right: 0px; 
+  transform: translate(10%, 8%); 
+}
+.a3::before{
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 10%; 
+  height: 100%; 
+  background:#e11dac;
+  animation: animate3 7s linear infinite; 
+  animation-direction: normal;
+  box-shadow: 0px 4px 30px #ffffff;
+}
+@keyframes animate3 { 
+  0% { 
+    left: 10%; 
+} 
+
+100% { 
+    left: 83%; 
+} 
+} 
+
+.a4{
+  width: 1277px; 
+  height: 15px; 
+  background-color: transparent; 
+  position: absolute; 
+  top: 25px; 
+  right: 0px; 
+  transform: translate(10%, 8%); 
+}
+.a4::before{
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 10%; 
+  height: 100%; 
+  background:#e11dac;
+  animation: animate4 7s linear infinite; 
+  animation-direction: normal;
+  box-shadow: 0px 4px 30px #ffffff;
+}
+@keyframes animate4 { 
+  0% { 
+      left: 82%; 
+  } 
+
+  100% { 
+      left: -20%; 
+  } 
+} 
+
+
+
+
+.arrow1{
+  position: absolute;
+width: 192.77px;
+height: 81.59px;
+left: 1213px;
+top: 134.41px;
+}
+.line2{
+  position: absolute;
+width: 1059px;
+height: 0px;
+left: 165px;
+top: 319px;
+}
+.arrow2{
+  position: absolute;
+width: 249.98px;
+height: 105.89px;
+left: 32px;
+top: 298px;
+}
+.line3{
+  position: absolute;
+width: 1059px;
+height: 0px;
+left: 165px;
+top: 565px;
+}
+.arrow3{
+  position: absolute;
+  width: 192.77px;
+  height: 81.59px;
+  left: 1213px;
+top: 561.98px;
+}
+.line4{
+  position: absolute;
+width: 1257px;
+height: 0px;
+left: 5px;
+top: 750px;
+}
+.card1{
+  width: 250px;
+        height: 150px;
+        margin: auto;
+        position: relative;
+        top: 92px;
+        left:-315px;
+        background: rgba( 247, 240, 240, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius: 10px;
+        opacity: 0.8;
+        -webkit-backdrop-filter: blur( 4.0px );
+}
+.card1-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card1:hover .card1-inner {
+  transform: rotateY(180deg);
+}
+.card1-front, .card1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.card1-front {
+  color: black;
+}
+.card1-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.card2{
+  width: 250px;
+        height: 150px;
+        margin: auto;
+        position: relative;
+        top: 130px;
+        left:245px;
+        background: rgba( 247, 240, 240, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius: 10px;
+        opacity: 0.8;
+        -webkit-backdrop-filter: blur( 4.0px );
+}
+.card2-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card2:hover .card2-inner {
+  transform: rotateY(180deg);
+}
+.card2-front, .card2-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.card2-front {
+  color: black;
+}
+.card2-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.card3{
+  width: 250px;
+        height: 150px;
+        margin: auto;
+        position: relative;
+        top: 225px;
+        left:-315px;
+        background: rgba( 247, 240, 240, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius: 10px;
+        opacity: 0.8;
+        -webkit-backdrop-filter: blur( 4.0px );
+}
+.card3-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card3:hover .card3-inner {
+  transform: rotateY(180deg);
+}
+.card3-front, .card3-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.card3-front {
+  color: black;
+}
+.card3-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.card4{
+  width: 250px;
+        height: 150px;
+        margin: auto;
+        position: relative;
+        top: 260px;
+        left:245px;
+        background: rgba( 247, 240, 240, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius: 10px;
+        opacity: 0.8;
+        -webkit-backdrop-filter: blur( 4.0px );
+}
+.card4-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card4:hover .card4-inner {
+  transform: rotateY(180deg);
+}
+.card4-front, .card4-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.card4-front {
+  color: black;
+}
+.card4-back {
+  color: white;
+  transform: rotateY(180deg);
+}
